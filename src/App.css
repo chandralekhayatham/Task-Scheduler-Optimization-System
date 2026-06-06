@@ -1,0 +1,163 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#08141f;
+    color:white;
+    background: linear-gradient(to right,#08141f,#10293f,#08141f);
+}
+
+.container{
+    text-align:center;
+    padding:30px;
+}
+
+h1{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#00ffd5;
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+button{
+    background:#00d9ff;
+    color:white;
+    border:none;
+    padding:15px 40px;
+    font-size:22px;
+    border-radius:10px;
+    cursor:pointer;
+    margin-bottom:30px;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px #00ffd5;
+}
+
+.card{
+    background:#091722;
+    width:90%;
+    margin:auto;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0px 0px 20px rgba(0,255,255,0.2);
+    background: linear-gradient(135deg,#091722,#05111b);
+}
+
+.task-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+.task-card{
+    background:#0a2740;
+    width:180px;
+    padding:20px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.task-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0px 0px 25px #00ffd5;
+}
+
+.task-card h3{
+    font-size:28px;
+}
+
+.task-card p{
+    font-size:18px;
+}
+
+.timeline{
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+.timeline-row{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.timeline-row span{
+    width:70px;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.timeline-bar{
+    background:#22ffd0;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.timeline-bar:hover{
+    transform:scale(1.05);
+    box-shadow:0px 0px 20px #00ffd5;
+}
+
+.bar1{
+    width:150px;
+}
+
+.bar2{
+    width:250px;
+}
+
+.bar3{
+    width:150px;
+}
+
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.box{
+    background:#0a2740;
+    width:250px;
+    padding:30px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.box:hover{
+    transform:translateY(-8px);
+    box-shadow:0px 0px 25px #00ffd5;
+}
+
+.box h3{
+    font-size:60px;
+    margin:0;
+}
+
+.box p{
+    font-size:28px;
+    margin-top:10px;
+}
+
+footer{
+    margin-top:40px;
+    font-size:18px;
+    color:#cccccc;
+}
